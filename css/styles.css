@@ -334,6 +334,7 @@
     font-size: 1.6rem;
     background-color:#0D1B2B !important ;
      background: url(../assets/img/bg.png);
+     background-attachment: fixed;
      overflow-x: hidden;
     /* //width:100%;  */
   }
@@ -712,7 +713,7 @@ div.overlay-blue:hover {background-color: rgba(13, 27, 43, 0.5);}
     grid-gap: 30px;
   }
 
-  .slider {
+  .slider_content {
     display: none;
   }
 }
