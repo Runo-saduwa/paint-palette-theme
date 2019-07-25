@@ -294,7 +294,7 @@
   
 
   /* button style */
-  button {
+  button.main-btn {
     z-index: 1;
     position: relative;
     font-size: inherit;
@@ -324,12 +324,12 @@
     transition: transform 0.45s ease-in-out;
   }
   
-  button:hover {
+  .main-btn:hover {
     cursor: pointer;
     color: #161616;
   }
   
-  button:hover::before {
+  .main-btn:hover::before {
     transform: translate3d(50%, -50%, 0) scale3d(15, 15, 15);
   }
 
@@ -380,7 +380,9 @@
     font-size: 1.6rem;
     background-color:#0D1B2B !important ;
      background: url(../assets/img/bg.png);
+     background-position: center;
      background-attachment: fixed;
+     background-size: cover;
      overflow-x: hidden;
     /* //width:100%;  */
   }
