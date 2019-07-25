@@ -380,6 +380,7 @@
     font-size: 1.6rem;
     background-color:#0D1B2B !important ;
      background: url(../assets/img/bg.png);
+     background-size: cover;
      background-attachment: fixed;
      overflow-x: hidden;
     /* //width:100%;  */
