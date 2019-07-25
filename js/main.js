@@ -5,6 +5,7 @@
     setTimeout(() => {
       document.querySelector('body').classList.remove('body');
       document.querySelector('.loader').classList.add('hide');
+      document.querySelector('main').classList.remove('main-content');
       document.querySelector('#menu_icon').classList.remove('hide');
     }, 5000)
     class Menu {

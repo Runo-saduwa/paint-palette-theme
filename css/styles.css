@@ -12,6 +12,10 @@
   height: 100vh;
   overflow-y: hidden;
 }
+.main-content {
+  display: none;
+}
+
 .r-button{
     --uirButtonBackgroundColor: var(--rButtonBackgroundColor, transparent);
     --uirButtonPadding: var(--rButtonPadding, var(--rButtonPaddingTop, 0) var(--rButtonPaddingRight, 0) var(--rButtonPaddingBottom, 0) var(--rButtonPaddingLeft, 0));
@@ -325,10 +329,11 @@
    */
  
   
-  header{
+  header {
     position: relative;
     display: flex;
     height: 100vh;
+    width: 100%;
     margin: 0;  
     font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Open Sans, Ubuntu, Fira Sans, Helvetica Neue, sans-serif;
     font-size: 1.6rem;
@@ -338,6 +343,13 @@
      overflow-x: hidden;
     /* //width:100%;  */
   }
+
+  .page h1 {
+    color: #fff;
+    margin: 0;
+  }
+
+  
   
   .page{
     max-width: 380px;
