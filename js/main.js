@@ -6,7 +6,7 @@
       document.querySelector('body').classList.remove('body');
       document.querySelector('.loader').classList.add('hide');
       document.querySelector('#menu_icon').classList.remove('hide');
-    }, 1000)
+    }, 5000)
     class Menu {
       constructor(settings) {
         this.menuNode = settings.menuNode;
