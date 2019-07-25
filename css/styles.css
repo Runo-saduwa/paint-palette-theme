@@ -306,7 +306,7 @@
     background-color: hsl(236, 32%, 26%);
     overflow: hidden;
     transition: color 0.4s ease-in-out;
-    border-radius: 12px;
+    border-radius: 8px;
   }
   
   button::before {
@@ -756,6 +756,10 @@ div.overlay-blue:hover {background-color: rgba(13, 27, 43, 0.5);}
   
   html{
     font-size: 50%;
+  }
+
+  button{
+    font-size: 1.5em  !important;
   }
 
   .container {
