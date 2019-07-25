@@ -1,11 +1,9 @@
 /* General style */
- html {
-   background: var(--uiOffWhite);
- 
-   overflow-x:hidden;
- }
  body {
+   background: var(--uiOffWhite);
    margin: 0 !important;
+   width:100%;
+   overflow-x: hidden;
  }
  
 /* The component will reset button browser styles */
@@ -317,14 +315,14 @@
   DEMO
   =====
   */
-  
+/*   
   @media (min-width: 768px){
   
     html{
       font-size: 62.5%;
     }
   }
-  
+   */
  
   
   header{
@@ -712,5 +710,9 @@ div.overlay-blue:hover {background-color: rgba(13, 27, 43, 0.5);}
     margin: 0 auto;
     grid-template-columns: 1fr;
     grid-gap: 30px;
+  }
+
+  .slider {
+    display: none;
   }
 }
